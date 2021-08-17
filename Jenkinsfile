@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Package') {
             steps {
-                echo 'creating package...'
+                echo 'Creating package...'
             }
         }
 	stage('Deploy') {
