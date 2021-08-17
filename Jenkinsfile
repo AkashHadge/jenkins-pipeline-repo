@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                echo 'compile source code...checking webhook2'
+                echo 'compile source code...checking webhook3'
             }
         }
         stage('Test') {
