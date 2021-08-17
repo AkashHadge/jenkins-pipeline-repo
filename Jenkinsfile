@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('compile') {
+        stage('Compile') {
             steps {
                 echo 'Compile source code...'
             }
